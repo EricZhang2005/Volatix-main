@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { height: 100%; }
+body { background:#0B0F14; color:white; }
+.container-max { max-width:72rem; margin:0 auto; padding:0 1rem; }
+.card { background:#0F141B; border:1px solid rgba(255,255,255,0.1); border-radius:1rem; box-shadow:0 10px 30px rgba(0,0,0,0.35); }
+.kbd { padding:0.25rem 0.5rem; border-radius:0.25rem; background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.2); font-size:0.75rem; }
