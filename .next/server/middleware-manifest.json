@@ -1,6 +1,34 @@
 {
   "version": 3,
   "middleware": {},
-  "functions": {},
+  "functions": {
+    "/api/greeks/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/greeks/route.js"
+      ],
+      "name": "app/api/greeks/route",
+      "page": "/api/greeks/route",
+      "matchers": [
+        {
+          "regexp": "^/api/greeks$",
+          "originalSource": "/api/greeks"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "73YjdG5yws69Dj8O77FXe",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "5Ii+dLWbGzaLvraTua5xCfZW8HBdicS75+vp82hCIEI=",
+        "__NEXT_PREVIEW_MODE_ID": "0d0ad4c2a94f895a610a39cd30f5f803",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "4a79750a84bce5e1ca6adbfe70a677c79c1d687bfe8d006310839adb6393d15c",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "b8eff100fbc0481a559c5ec17006823d24084a686ea4a80f65e95df500d43a49"
+      }
+    }
+  },
   "sortedMiddleware": []
 }

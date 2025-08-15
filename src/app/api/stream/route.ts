@@ -6,6 +6,9 @@ import { expSmoothForecast } from '@/lib/forecast/expSmooth';
 import { fetchOptionChainPolygon } from '@/lib/data/providers/polygon';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+export const fetchCache = 'force-no-store';
 
 type Quote = { K:number; T:number; call:number; iv?:number };
 
