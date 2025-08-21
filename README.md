@@ -1,4 +1,4 @@
-# VolEdge
+# Volatix
 
 Realtime IV surfaces, arbitrage detection, and short-horizon forecasts.
 

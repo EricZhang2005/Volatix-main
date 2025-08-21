@@ -1,4 +1,4 @@
-// File: /Users/ericzhang/Desktop/Projects/Volatix-main/src/app/api/stream/route.ts
+// File: /Users/ericzhang/Desktop/Projects/Volatix-main/Volatix-main/src/app/api/stream/route.ts
 import * as entry from '../../../../../src/app/api/stream/route.js'
 import type { NextRequest } from 'next/server.js'
 
